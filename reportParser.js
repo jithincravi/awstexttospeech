@@ -39,7 +39,7 @@ let parseReport = function(reportName) {
   let reportTitle = htmlMetaData.getAttribute('Title');
   let reportSubtitle = htmlMetaData.getAttribute('Subtitle');
 
-  parsedReport = reportTitle + ': ' + reportSubtitle + '.';
+  parsedReport = reportTitle;
 
   // console.info(reportTitle);
   // console.info(reportSubtitle);
@@ -137,7 +137,7 @@ let concatenateReportTexts = function(reportTexts, concatenatedReportsFile) {
     concatenatedReportText = concatenatedReportText + report + '\n';
   });
   concatenatedReportText = concatenatedReportText + ' This concludes today\'s Reasearch Podcast. Thank you for listening!';
-  console.log(concatenatedReportText);
+  //console.log(concatenatedReportText);
 
   fs.writeFile(concatenatedReportsFile, concatenatedReportText, function(err) {
     if(err) {
@@ -163,7 +163,7 @@ parsedReportTexts.forEach(function(parsedReportText) {
 });
 
 // Concatenate the report texts and save to file
-concatenateReportTexts(summarizedReportTexts, concatenatedReportsFile);
+//concatenateReportTexts(summarizedReportTexts, concatenatedReportsFile);
 
 // SSML tags  -----------------------------------------------------------------------------------------------------------------------
 
@@ -183,7 +183,7 @@ let parseReportSSML = function(reportName) {
   let reportTitle = htmlMetaData.getAttribute('Title');
   let reportSubtitle = htmlMetaData.getAttribute('Subtitle');
 
-  parsedReport = '<emphasis>' + reportTitle + '</emphasis>' + ': ' + reportSubtitle + '. <break time="3s"/>';
+  parsedReport = '<emphasis>' + reportTitle + '</emphasis>  <break time="2s"/>';
 
   // console.info(reportTitle);
   // console.info(reportSubtitle);
@@ -208,8 +208,8 @@ let parseReportSSML = function(reportName) {
   let upside = ((Number(priceObjective) - Number(actualPrice)) / Number(actualPrice) * 100).toFixed(2) + '%';
   // console.log("upside: " + upside);
 
-  parsedReport = parsedReport + ' We reiterate ' + rating + ' rating, with a price objective of ' + priceObjective + ' ' + currency
-  + ' and an upside of ' + upside + ' for ' + companyName + '.';
+  parsedReport = parsedReport + ' We reiterate <break/> ' + rating + ' rating, with a price objective of ' + priceObjective + ' ' + currency
+  + '<break/> and an upside of ' + upside + ' for ' + companyName + '.<break/>';
 
   // console.info(rating);
   // console.info(priceObjective);
@@ -224,10 +224,11 @@ let parseReportSSML = function(reportName) {
   for(let i = 0; i < summaryPoints.length; i++) {
     reportSummary = reportSummary + ' ' + summaryPoints.item(i).childNodes[0].nodeValue;
     if(reportSummary.charAt(reportSummary.length - 1) != '.') {
-        reportSummary = reportSummary + '.';
+        reportSummary = reportSummary + '.<break/>';
     }
   }
-  parsedReport = parsedReport + reportSummary + ' ';
+  console.log(reportSummary)
+  parsedReport = parsedReport + reportSummary + '<break time="2s"/>';
 
   //console.info(parsedReport);
   return parsedReport;

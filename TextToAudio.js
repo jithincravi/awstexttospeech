@@ -54,7 +54,7 @@ console.log("Text to be converted >> \n" +  textToConvertSSML);
 
 let paramsSSML = {
   OutputFormat: "mp3",
-  Text: "textToConvertSSML",
+  Text: textToConvertSSML,
   TextType: "ssml",
   VoiceId: "Matthew"
  };
