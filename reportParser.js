@@ -254,6 +254,7 @@ let concatenateReportTextsSSML = function(reportTexts, concatenatedReportsFileSS
 
 };
 
+
 // Parse 5 reports, extract summary and key takeaways
 reports.forEach(function(report) {
   parsedReportTextsSSML.push(parseReportSSML(report));
