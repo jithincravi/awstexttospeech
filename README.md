@@ -8,9 +8,9 @@ v8.10.0
 
 1. Dependency: 
 
-npm install aws-sdk
-npm install fs
-npm install xmldom
+npm install aws-sdk <br/>
+npm install fs <br/>
+npm install xmldom <br/>
 
 2. Clone this repo
 
