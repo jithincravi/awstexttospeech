@@ -6,9 +6,13 @@
 v8.10.0
 </pre>
 
-1. Install xmldom for parsing XML reports: npm install xmldom
+1. Dependency: 
 
-2. Fetch code from github
+npm install aws-sdk
+npm install fs
+npm install xmldom
+
+2. Clone this repo
 
 3. Under TextToSpeech folder, create a new folder "Reports" and save the 5 research reports here. This is not uploaded because of licensing rules
 
