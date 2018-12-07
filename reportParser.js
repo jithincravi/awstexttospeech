@@ -195,7 +195,7 @@ let parseReportSSML = function(reportName) {
   // console.log("upside: " + upside);
 
   parsedReport = parsedReport + ' We reiterate <break/> ' + rating + ' rating, with a price objective of ' + priceObjective + ' ' + currency
-  + '<break/> and an upside of ' + upside + ' for ' + companyName + '.<break/>';
+  + '<break/> and an upside of ' + upside + ' for ' + companyName + '.<break/> \n';
 
   // console.info(rating);
   // console.info(priceObjective);
@@ -216,14 +216,14 @@ let parseReportSSML = function(reportName) {
 		  }
 	  }
 	  /** NLP Piece End */
-	  reportSummary = reportSummary + ' ' + summaryPoints.item(i).childNodes[0].nodeValue;
+	  reportSummary = reportSummary + ' ' + summaryPoints.item(i).childNodes[0].nodeValue +' \n';
     if(reportSummary.charAt(reportSummary.length - 1) != '.') {
-        reportSummary = reportSummary + '.<break/>';
+        reportSummary = reportSummary + '.<break/> \n';
     }
   }
   
   
-  parsedReport = parsedReport + reportSummary + '<break time="1s"/>';
+  parsedReport = parsedReport + reportSummary + '<break time="1s"/> \n';
 
   // console.info(parsedReport);
   return parsedReport;
@@ -251,7 +251,7 @@ let concatenateReportTextsSSML = function(reportTexts, concatenatedReportsFileSS
   concatenatedReportText=concatenatedReportText+'  ' +NLPText;
   
   reportTexts.forEach(function(report) {
-    concatenatedReportText = concatenatedReportText +'<p>' + report + '</p>';
+    concatenatedReportText = concatenatedReportText +'<p>' + report + '</p> \n';
   });
   concatenatedReportText = concatenatedReportText + ' This concludes today\'s Reasearch Podcast. Thank you for listening! \n</speak>';
   // console.log(concatenatedReportText);
