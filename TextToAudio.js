@@ -74,6 +74,7 @@ let saveAudioFileSSML = function(err, data) {
 /* convert text in params to speech and save the audio file*/
 polly.synthesizeSpeech(paramsSSML, saveAudioFileSSML);
 
+
 // let paramsForSpeechMarks = {
 //   OutputFormat: "json",
 //   Text: textToConvert,

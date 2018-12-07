@@ -8,14 +8,15 @@
   ["4Q18", "2018 4th quarter"],
   ["1H18", "2018 1st half"],
   ["2H18", "2018 2nd half"],
-  ["F1Q", "full 1st quarter"],
-  ["F2Q", "full 2nd quarter"],
-  ["F3Q", "full 3rd quarter"],
-  ["F4Q", "full 4th quarter"],
+  ["F1Q", "1st quarter"],
+  ["F2Q", "2nd quarter"],
+  ["F3Q", "3rd quarter"],
+  ["F4Q", "4th quarter"],
   ["1Q", "1st quarter"],
   ["2Q", "2nd quarter"],
   ["3Q", "3rd quarter"],
   ["4Q", "4th quarter"],
+  ["1QFY19", "2019 1st quarter"],
   ["PO", "price objective"],
   ["fwd", "forward"],
   ["Adj\\.", "Adjusted"],
@@ -27,5 +28,6 @@
   ["M&A", "M and A"],
   ["Co\\.", "Company"],
   ["Co", "Company"],
-  [" & ", " and "]
-  ]
+  [" & ", " and "],
+  ["BofAMLe/consensus", "BAML consensus"]
+      ]
