@@ -9,7 +9,7 @@ let fs = require('fs');
 //   if (err) console.log(err); // an error occurred
 //   else     console.log(data);
 // });
-
+/*
 let textToConvert = fs.readFileSync('concatenatedReports.txt', 'utf8', function (err, data) {
   if (err) console.log(err);
   else {
@@ -37,7 +37,7 @@ let saveAudioFile = function(err, data) {
     });
   }
 }
-
+*/
 /* convert text in params to speech and save the audio file*/
 //polly.synthesizeSpeech(params, saveAudioFile);
 
