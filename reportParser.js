@@ -169,7 +169,7 @@ let parseReportSSML = function(reportName) {
   let reportTitle = htmlMetaData.getAttribute('Title');
   let reportSubtitle = htmlMetaData.getAttribute('Subtitle');
 
-  parsedReport = '<emphasis>' + reportTitle + '</emphasis>  <break time="1s"/>';
+  parsedReport = '<emphasis>' + reportTitle + '</emphasis>  <break time=".5s"/>';
 
   // console.info(reportTitle);
   // console.info(reportSubtitle);
@@ -218,13 +218,13 @@ let parseReportSSML = function(reportName) {
 	  /** NLP Piece End */
 	  reportSummary = reportSummary + ' ' + summaryPoints.item(i).childNodes[0].nodeValue +' \n';
     if(reportSummary.charAt(reportSummary.length - 1) != '.') {
-        reportSummary = reportSummary + '<break/> \n';
+        reportSummary = reportSummary + '. <break/> \n';
     }
   }
   
   
   
-  parsedReport = parsedReport + reportSummary + '<break time="1s"/> \n';
+  parsedReport = parsedReport + reportSummary + '<break time=".5s"/> \n';
 
   // console.info(parsedReport);
   return parsedReport;
