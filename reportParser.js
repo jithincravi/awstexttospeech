@@ -218,7 +218,7 @@ let parseReportSSML = function(reportName) {
 	  /** NLP Piece End */
 	  reportSummary = reportSummary + ' ' + summaryPoints.item(i).childNodes[0].nodeValue +' \n';
     if(reportSummary.charAt(reportSummary.length - 1) != '.') {
-        reportSummary = reportSummary + '. <break/> \n';
+        reportSummary = reportSummary + ' <break/> \n';
     }
   }
   
