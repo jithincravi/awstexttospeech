@@ -1,0 +1,32 @@
+{
+    "Entities": [
+        {
+            "Score": 0.9554407000541687,
+            "Type": "ORGANIZATION",
+            "Text": "Tesla",
+            "BeginOffset": 0,
+            "EndOffset": 5
+        },
+        {
+            "Score": 0.7841619849205017,
+            "Type": "DATE",
+            "Text": "2018",
+            "BeginOffset": 15,
+            "EndOffset": 19
+        },
+        {
+            "Score": 0.6293752193450928,
+            "Type": "QUANTITY",
+            "Text": "2nd quarter",
+            "BeginOffset": 20,
+            "EndOffset": 31
+        },
+        {
+            "Score": 0.5303952097892761,
+            "Type": "ORGANIZATION",
+            "Text": "BAML",
+            "BeginOffset": 67,
+            "EndOffset": 71
+        }
+    ]
+}

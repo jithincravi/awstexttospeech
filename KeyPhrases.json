@@ -1,0 +1,46 @@
+{
+    "KeyPhrases": [
+        {
+            "Score": 0.9613748788833618,
+            "Text": "Tesla",
+            "BeginOffset": 0,
+            "EndOffset": 5
+        },
+        {
+            "Score": 0.9672244191169739,
+            "Text": "2018 2nd quarter earnings",
+            "BeginOffset": 15,
+            "EndOffset": 40
+        },
+        {
+            "Score": 0.7095848321914673,
+            "Text": "light",
+            "BeginOffset": 54,
+            "EndOffset": 59
+        },
+        {
+            "Score": 0.9893179535865784,
+            "Text": "BAML consensus",
+            "BeginOffset": 67,
+            "EndOffset": 81
+        },
+        {
+            "Score": 0.7313646674156189,
+            "Text": "cash",
+            "BeginOffset": 92,
+            "EndOffset": 96
+        },
+        {
+            "Score": 0.9936937689781189,
+            "Text": "a bit",
+            "BeginOffset": 106,
+            "EndOffset": 111
+        },
+        {
+            "Score": 0.46834704279899597,
+            "Text": "expected",
+            "BeginOffset": 124,
+            "EndOffset": 132
+        }
+    ]
+}
