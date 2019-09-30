@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexicon version="1.0"
+	xmlns="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon 
+        http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd"
+	alphabet="ipa" xml:lang="en-US">
+	<lexeme>
+		<grapheme>W3C</grapheme>
+		<alias>World Wide Web Consortium</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>1Q:18</grapheme>
+		<alias>2018 1st quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>2Q:18</grapheme>
+		<alias>2018 2nd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>3Q:18</grapheme>
+		<alias>2018 3rd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>4Q:18</grapheme>
+		<alias>2018 4th quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>1Q18</grapheme>
+		<alias>2018 1st quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>2Q18</grapheme>
+		<alias>2018 2nd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>3Q18</grapheme>
+		<alias>2018 3rd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>4Q18</grapheme>
+		<alias>2018 4th quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>1H18</grapheme>
+		<alias>2018 1st half</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>2H18</grapheme>
+		<alias>2018 2nd half</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>F1Q</grapheme>
+		<alias>1st quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>F2Q</grapheme>
+		<alias>2nd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>F3Q</grapheme>
+		<alias>3rd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>F4Q</grapheme>
+		<alias>4th quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>1Q</grapheme>
+		<alias>1st quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>2Q</grapheme>
+		<alias>2nd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>3Q</grapheme>
+		<alias>3rd quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>4Q</grapheme>
+		<alias>4th quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>1QFY19</grapheme>
+		<alias>2019 1st quarter</alias>
+	</lexeme>
+	<lexeme>
+		<grapheme>PO</grapheme>
+		<alias>price objective</alias>
+	</lexeme>
+
+</lexicon>
